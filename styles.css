@@ -1,0 +1,276 @@
+                             /* LANDING PAGE */
+.landing-page-header {
+    background-color: sienna;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.header-headline {
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.nav-list {
+    display: flex;
+    flex-flow: row wrap;
+    list-style-type: none;
+    margin: 10;
+    padding: 20px;
+}
+
+.item-club-link,
+.item-history-link,
+.item-fanfacts-link {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.landing-page-main {
+    display: flex;
+  background-color: burlywood;
+}
+
+.cookies-image {
+    margin: 3mm;
+    flex: 1 1 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.cookies-image1 {
+    max-width: 50%;
+}
+
+.paragraph-section {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex: 1 1 50%;
+  margin: 3mm;
+}
+
+.main-paragraph {
+    color: sienna;
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.recipe-btn {
+    background-color: brown;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 15px;
+    cursor: pointer; 
+
+}
+
+.landing-page-footer {
+    background-color: sienna;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.footer-list {
+    display: flex;
+    flex-flow: row wrap;
+    list-style-type: none;
+    margin: 10;
+    padding: 20px;
+}
+
+.instagram-link,
+.facebook-link {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 20px;
+}
+
+                       /* RECIPE PAGE */
+.recipe-page-header {
+    background-color: sienna;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    margin-bottom: 5px;
+  }
+
+  .header-headline {
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+  }
+
+
+  .recipe-page-main {
+    background-color: burlywood;
+     display: flex;
+  }
+
+  .choosing-portions {
+    flex-flow: column wrap;
+    padding: 10px;
+    margin: 3mm;
+    flex: 1 1 50%;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .portions-label {
+    font-size: 20px;
+  }
+
+  .portions {
+    font-size: 15px;
+  }
+
+  .ingredients-section {
+    padding: 10px;
+  }
+
+  .ingredients-headline {
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+  }
+
+  .ingredients-list {
+    font-size: 20px;
+    margin-top: 5px;
+  }
+
+  .time-difficulty-paragraph {
+    font-size: 20px;
+  }
+
+  .preparation-headline {
+    padding: 5px;
+    font-size: 24px;
+    margin-bottom: 1x;
+  }
+
+  .preparation-steps {
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 2px;
+    margin-left: 20px;
+  }
+
+  .cookies-image-tea {
+    display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex: 1 1 50%;
+  padding: 10px;
+  }
+
+.cookies-and-tea {
+    max-width: 10%;
+    
+}
+
+  .review-section {
+    margin-top: 50px;
+    padding: 10px;
+  }
+
+
+  .write-review-headline {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: black;
+  }
+
+  .review-list {
+    color: black;
+    padding: 10px;
+    width: 50%;
+    background-color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+ }
+ 
+
+  .review-field,
+  .name-field {
+    width: 50%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+  }
+
+  
+  .submit-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  
+  .review-text,
+  .name-text {
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 10px;
+  }
+
+  .recipe-page-footer {
+    background-color: sienna;
+    display: flex;
+    margin-top: 5px;
+}
+
+
+.cookies-walnuts-image {
+  flex-flow: column wrap;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.cookies-walnuts-link,
+.cookies-raisins-link {
+    margin-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+.cookies-raisins-image {
+  flex-flow: column wrap;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+

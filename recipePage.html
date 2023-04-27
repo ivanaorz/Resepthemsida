@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chocolate Chip Cookies Recipe</title>
+    <!--link to the recipe source: https://www.bbcgoodfood.com/recipes/chewy-chocolate-chip-cookies
+        design of landing and recipe page is mine as well as the images (I bought cookies and made photos)-->
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="responsiveDesign.css">
+        <script src="calcIngredients.js" defer></script>
+        <script src="writeReview.js"></script>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="recipe-page-header">
+        <h1 class="header-headline">Chocolate Chip Cookies Recipe</h1>
+    </header>
+
+    <main class="recipe-page-main">
+
+        <section class="choosing-portions">
+            <label for="portions-label">Number of cookies:</label>
+            <select class="portions" id="portions">
+              <option value="">--Please choose an option--</option> 
+              <option value="12">12 cookies</option>
+              <option value="24">24 cookies</option>
+              <option value="36">36 cookies</option>
+            </select>
+       
+            <h2 class="ingredients-headline">Ingredients</h2>
+            <ul class="ingredients-list">
+              <li>Flour: <span class="flour-amount">200 grams</span></li>
+              <li>Butter, softened: <span class="butter-amount">150 grams</span></li>
+              <li>Brown sugar: <span class="sugar-amount">150 grams</span></li>
+              <li>Eggs: <span class="eggs-amount">1</span></li>
+              <li>Chocolate chips: <span class="chocolate-amount">200 grams</span></li>
+              <li>Baking powder: <span class="baking-powder-amount">2.5 grams</span></li>
+              <li>Vanilla extract: <span class="vanilla-amount">5 grams</span></li>
+            </ul>
+
+            <p class="time-difficulty-paragraph">Preparation: 10 mins. Cooking: 10 mins. Difficulty: easy.</p>
+
+            <h2 class="preparation-headline">Steps</h2>
+            <ol class="preparation-steps">
+              <li>Mix together butter, sugar and eggs untill it gets light and fluffy.</li>
+              <li>Add vanilla extract, flour, baking powder and chocolate chips.</li>
+              <li>Roll the dough into balls and place them on the baking sheets.</li>
+              <li>Heat the oven to 180C degrees.</li>
+              <li>Bake the cookies for 8-10 minutes.</li>
+              <li>Leave to cool and serve with pleasure!</li>
+            </ol>
+
+            <section class="review-section">
+              <form>
+                <h3 class="write-review-headline">Write a review</h3>
+                  <textarea class="review-field" name="review" rows="4" cols="50"></textarea><br>
+                  <input class="name-field" type="text" id="name-field" placeholder="Your name..."><br>
+                  <button class="submit-btn" type="submit">Submit</button>
+                <div class="review">
+                <ul class="review-list"></ul>
+              </div>
+            </form>
+            </section>
+          </section>
+
+        <figure class="cookies-image-tea">
+            <img src="cookies-and-tea.jpg" alt="Cookies and tea image" style="width:100%;">
+        </figure>
+        </main>
+
+    <footer class="recipe-page-footer">
+      
+            <figure class="cookies-walnuts-image">
+              <p class="cookies-walnuts-headline">
+                <a class="cookies-walnuts-link" href="links/cookiesWalnutsPage.html" style="text-decoration: none;">Chocolate chip cookies with walnuts</a>
+              </p>  
+                <img src="cookies-walnuts.jpg" alt="Chocolate chip cookies with walnuts image" style="width:65%">
+            </figure>
+
+            
+            <figure class="cookies-raisins-image">
+              <p class="cookies-raisins-headline">
+                <a class="cookies-raisins-link" href="links/cookiesRaisinsPage.html" style="text-decoration: none;">Chocolate chip cookies with raisins</a>
+                <img src="cookies-raisins.jpg" alt="Chocolate chip cookies with raisins image" style="width:50%">
+            </figure>
+    </footer>
+  </div>
+
+  </body>
+  </html>
